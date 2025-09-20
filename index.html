@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KlixPVF</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f0f8f0;
+        color: #1a1a1a;
+    }
+
+    /* Hero Bölümü */
+    .hero {
+        background: linear-gradient(135deg, #4caf50, #81c784);
+        color: white;
+        text-align: center;
+        padding: 120px 20px;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+
+    .hero h1 {
+        font-size: 3.5em;
+        margin: 0 0 20px 0;
+        letter-spacing: 2px;
+    }
+
+    .hero p {
+        font-size: 1.3em;
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+
+    .hero a {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 15px 40px;
+        background-color: white;
+        color: #4caf50;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 50px;
+        transition: 0.3s;
+    }
+
+    .hero a:hover {
+        background-color: #f1f1f1;
+        transform: scale(1.05);
+    }
+
+    /* Özellikler Bölümü */
+    .features {
+        max-width: 1000px;
+        margin: -50px auto 80px auto;
+        padding: 0 20px;
+    }
+
+    .feature {
+        background: white;
+        margin: 40px 0;
+        padding: 40px 30px;
+        border-left: 10px solid #4caf50;
+        border-radius: 15px;
+        box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .feature-icon {
+        font-size: 50px;
+        color: #4caf50;
+        flex-shrink: 0;
+    }
+
+    .feature-content h2 {
+        margin: 0 0 10px 0;
+        font-size: 1.8em;
+        color: #2e7d32;
+    }
+
+    .feature-content p {
+        margin: 0;
+        color: #555;
+        line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 25px 0;
+        background-color: #e8f5e9;
+        color: #333;
+        font-size: 0.95em;
+        border-top: 2px solid #a5d6a7;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2.2em;
+        }
+        .hero p {
+            font-size: 1em;
+        }
+        .feature {
+            flex-direction: column;
+            text-align: center;
+        }
+        .feature-icon {
+            font-size: 60px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- Hero Bölümü -->
+<div class="hero">
+    <h1>KlixPVF</h1>
+    <p>Minecraft Bedrock Edition için premium PvP bot. Hedef takibi, otomatik saldırı ve yüksek performans ile PvP deneyiminizi tamamen değiştirecek.</p>
+    <a href="#">Şimdi İndir</a>
+</div>
+
+<!-- Özellikler Bölümü -->
+<div class="features">
+    <div class="feature">
+        <div class="feature-icon">⚔️</div>
+        <div class="feature-content">
+            <h2>Otomatik PvP</h2>
+            <p>Düşmanlarınızı otomatik olarak takip eder ve saldırır, reflekslerinizi zorlamadan zafer kazanın.</p>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">🎯</div>
+        <div class="feature-content">
+            <h2>Hedef Takibi</h2>
+            <p>Rakiplerinizi hassas bir şekilde takip eder, doğru zamanda saldırarak PvP başarınızı artırır.</p>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">🛠️</div>
+        <div class="feature-content">
+            <h2>Kullanıcı Dostu Menü</h2>
+            <p>Form menüsü ile bot ayarlarını kolayca yönetebilir ve kişiselleştirebilirsiniz.</p>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">🚀</div>
+        <div class="feature-content">
+            <h2>Yüksek Performans</h2>
+            <p>Optimize edilmiş kod sayesinde oyun performansınızı düşürmeden sorunsuz PvP deneyimi sunar.</p>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="feature-icon">💎</div>
+        <div class="feature-content">
+            <h2>Bedrock Uyumluluğu</h2>
+            <p>KlixPVF, Minecraft Bedrock Edition ile tam uyumludur ve tüm cihazlarda sorunsuz çalışır.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 KlixPVF. Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>
